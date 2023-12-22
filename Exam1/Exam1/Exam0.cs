@@ -33,7 +33,7 @@ namespace Exam1
                         Console.WriteLine("Вы не угадали!. Загаданное число было"  + i + "!" );
                         break;
                     }
-                    Console.WriteLine("Нет,это число " + k + "! Попытка № " + count +":");
+                    Console.WriteLine("Нет,это не число " + k + "! Попытка № " + count +":");
                     k = Convert.ToInt32(Console.ReadLine());
                 }
 
